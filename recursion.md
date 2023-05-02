@@ -190,3 +190,28 @@ public class Main {
 	}
 }
 ```
+
+NOTE: from above code` return fib(number - 1) + fib(number - 2)` is NOT a **Tail Recursion**
+and this code `print(number + 1)` is **Tail Recursion** Because Tail Recursion which function executes last.
+
+> The tail recursion is basically using the recursive function as the last statement of the function
+
+### How to Understand & approach a problem:
+
+1. Identify, if you can break down problems into smaller problems
+2. Write the recurcence relation, if needed.
+3. Draw the Recursive Tree
+4. About the Tree
+   - See the flow of functions, how they are getting into stack.
+   - Identify & focus on left tree calls and right tree calls.
+   - Draw the Tree and Pointer again and again using Pen & Paper
+   - Use a deggur to see the flow.
+5. See how the values are returned at each step.
+6. See where the function call will come out. In the end, you will come out from the main function.
+
+### Key areas to focus on recursion
+1. Variables
+    1. Arguments
+    2. Return type
+    3. Body of function
+
